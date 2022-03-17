@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dailymedicine.com/allmedicines</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style-dailymed.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+</head>
+
+<body>
+    <!-- ==========================nav-bar start===================== -->
+    <nav class="navbar navbar-light b-white navbar-expand-lg p-4  sticky-top">
+        <a class="navbar-brand me-5" href="dailymedicine-final.html">
+            <img class="logo-res" src="photos/dailymedicine/logo2.png" width="230px " alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav1"
+            aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav1">
+            <div class="search-bar">
+                <a class="pincode" href="#" data-bs-toggle="offcanvas" data-bs-target="#pincode">Select Pincode <i
+                        class="fas fa-sort-down fa-lg t-blue px-2"></i></a>
+                <input type="search" placeholder="Search your Medicine and products" aria-label="Search">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="rx-dailymedicine-final.html"><img src="photos/dailymedicine/prescription (2).png">
+                            Upload Rx</a></li>
+                    <li><a href="cart-dailymedicine-final.html"><img src="photos/dailymedicine/cart.png"> Cart</a></li>
+                    <li><a href="login-dailymedicine-final.html"><img src="photos/dailymedicine/sign-in.png"> Sign
+                            in/Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================pincode offcanvas start===================== -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="pincode" aria-labelledby="offcanvasendLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h3 class="t-lblue fw-bold">Choose your <br> Location</h3>
+            <form class="d-flex my-4">
+                <input class="border rounded px-3 py-2" type="search" placeholder="Enter Pin Code" aria-label="Search">
+                <button class="btn btn-primary b-lblue fw-bold px-3 " type="submit">check</button>
+            </form>
+            <div class="row border rounded p-3 align-items-center">
+                <div class="col-2"><img src="photos/dailymedicine/pincode.svg" alt=""></div>
+                <div class="col-10 t-lblue fw-bold ">Login to view Addresses</div>
+            </div>
+            <div class="row border rounded p-3 align-items-center bg-light my-4">
+                <div class="col-2"><img src="photos/dailymedicine/pincode2.svg" alt=""></div>
+                <div class="col-10 t-lblue fw-bold">Express Delivery in Delhi</div>
+            </div>
+            <div class="row border rounded p-3 align-items-center bg-light my-4">
+                <div class="col-2"><img src="photos/dailymedicine/pincode2.svg" alt=""></div>
+                <div class="col-10 t-lblue ">Serving more than 100 towns and cities in India</div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========================pincode offcanvas end===================== -->
+    <div class="container rx-btn justify-content-end">
+        <button class="btn btn-primary b-lblue fw-bold" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasend" aria-controls="offcanvasend">Don't have a prescription? <br> Get
+            Started</button>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasend" aria-labelledby="offcanvasendLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col-6 t-lblue">
+                    <h5>Don't have prescription? <br><br> Don't Worry!</h5>
+                </div>
+                <div class="col-6"> <img src="photos/rx!.svg"></div>
+            </div>
+            <h5 class="t-lblue my-4">Follow these steps:</h5>
+            <h5 class="text-secondary">1. Add medicines to your cart</h5>
+            <h5 class="text-secondary mt-4">2. Select Free Doctor consultation at checkout</h5>
+            <h4 class="my-5 text-secondary">----------------OR---------------</h4>
+            <h5 class="t-lblue">Call us at <a href="#">+918888444422</a> to place your order</h5>
+        </div>
+    </div>
+    <!-- ==========================nav-bar end===================== -->
+
+    <!-- ==========================all medicine start===================== -->
+    <div class="container-fluid b-grey">
+        <div class="container p-4 my-5">
+            <h4 class="t-lblue fw-bold">Find Your Prescription Medicines</h4>
+            <p class="t-lblue">Shop by Drug Category</p>
+            <div class="med-block text-center">
+                <a class="fw-bold t-black border-start" href="#a">A</a>
+                <a class="fw-bold t-black" href="b.html">B</a>
+                <a class="fw-bold t-black" href="c.html">C</a>
+                <a class="fw-bold t-black" href="d.html">D</a>
+                <a class="fw-bold t-black" href="#">E</a>
+                <a class="fw-bold t-black" href="#">F</a>
+                <a class="fw-bold t-black" href="#">G</a>
+                <a class="fw-bold t-black" href="#">H</a>
+                <a class="fw-bold t-black" href="#">I</a>
+                <a class="fw-bold t-black" href="#">J</a>
+                <a class="fw-bold t-black" href="#">K</a>
+                <a class="fw-bold t-black" href="#">L</a>
+                <a class="fw-bold t-black" href="#">M</a>
+                <a class="fw-bold t-black" href="#">N</a>
+                <a class="fw-bold t-black" href="#">O</a>
+                <a class="fw-bold t-black" href="#">P</a>
+                <a class="fw-bold t-black" href="#">Q</a>
+                <a class="fw-bold t-black" href="#">R</a>
+                <a class="fw-bold t-black" href="#">S</a>
+                <a class="fw-bold t-black" href="#">T</a>
+                <a class="fw-bold t-black" href="#">U</a>
+                <a class="fw-bold t-black" href="#">V</a>
+                <a class="fw-bold t-black" href="#">W</a>
+                <a class="fw-bold t-black" href="#">X</a>
+                <a class="fw-bold t-black" href="#">Y</a>
+                <a class="fw-bold t-black" href="#">Z</a>
+                <a class="fw-bold t-black" href="allmedicine-dailymed.html">ALL</a>
+            </div>
+            <div class="row alpha">
+                <div class="col-3">
+                    <h4 class="fw-bold ms-5 mt-4" id="a">A</h4>
+                    <ul>
+                        <li><a href="#">Alzheimer (150)</a></li>
+                        <li><a href="#">Acne (375)</a></li>
+                        <li><a href="#">Alcohol Addiction (14)</a></li>
+                        <li><a href="#">Allergies (1082)</a></li>
+                        <li><a href="#">Anaesthesia - Local (61)
+                            </a></li>
+                        <li><a href="#">Acne (375)</a></li>
+                        <li><a href="#">Anxiety (42)</a></li>
+                        <li><a href="#">Allergies (1082)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========================all medicine end===================== -->
+
+
+    <!-- ==========================footer start===================== -->
+    <div class="container-fluid footer b-grey">
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="t-blue fw-bold">Need help?</h4>
+                <h6 class="t-blue fw-bold mt-5">Call or text us <a href="tel:8826559637">(+91)8888444422</a></h6>
+                <h6 class="t-blue fw-bold mb-5">Email us <a href="mailto:help@dailymedicine.com">help@dailymedicine.com</a></h6>
+                <h5 class="t-blue fw-bold mb-4">Get the App</h5>
+                <button class="btn p-3 b-blue fw-bold t-white"><img src="photos/dailymedicine/playstore.png" alt="">Play
+                    Store</button>
+            </div>
+            <div class="col-md-4">
+                <h4 class="t-blue fw-bold footer-res">Company info</h4>
+                <h6 class="t-blue fw-bold mt-5 mb-3"><a href="#">About Us</a></h6>
+                <h6 class="t-blue fw-bold mb-3"><a href="#">Blog</a></h6>
+                <h6 class="t-blue fw-bold mb-3"><a href="#">Careers</a></h6>
+                <h6 class="t-blue fw-bold"><a href="#">Locations</a></h6>
+            </div>
+            <div class="col-md-4">
+                <h4 class="t-blue fw-bold footer-res">Social Media</h4>
+                <div class="row mt-5">
+                    <div class="col-2"><a href="#"><img src="photos/dailymedicine/facebook.png" alt=""></a></div>
+                    <div class="col-2"><a href="#"><img src="photos/dailymedicine/twitter (1).png" alt=""></a></div>
+                    <div class="col-2"><a href="#"><img src="photos/dailymedicine/instagram.png" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========================footer end===================== -->
+    <ul class="d-flex flex-column fixed-bottom text-end p-4">
+        <li><a href="tel:918888444422"><i class="fas fa-phone-square fa-4x t-blue"></i></a></li>
+        <li><a href="https://wa.me/918826559637"><i
+                    class="fab fa-whatsapp-square fa-4x t-lblue"></i></a></li>
+
+    </ul>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

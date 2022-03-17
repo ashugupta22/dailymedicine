@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dailymedicine.com/cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style-dailymed.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+</head>
+
+<body>
+    <!-- ==========================nav-bar start===================== -->
+    <nav class="navbar navbar-light b-white navbar-expand-lg p-4  sticky-top">
+        <a class="navbar-brand me-5" href="dailymedicine-final.html">
+            <img class="logo-res" src="photos/dailymedicine/logo2.png" width="230px " alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav1"
+            aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav1">
+            <div class="search-bar">
+                <a class="pincode" href="#" data-bs-toggle="offcanvas" data-bs-target="#pincode">Select Pincode <i
+                        class="fas fa-sort-down fa-lg t-blue px-2"></i></a>
+                <input type="search" placeholder="Search your Medicine and products" aria-label="Search">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="rx-dailymedicine-final.html"><img src="photos/dailymedicine/prescription (2).png">
+                            Upload Rx</a></li>
+                    <li><a href="cart-dailymedicine-final.html"><img src="photos/dailymedicine/cart.png"> Cart</a></li>
+                    <li><a href="login-dailymedicine-final.html"><img src="photos/dailymedicine/sign-in.png"> Sign
+                            in/Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================pincode offcanvas start===================== -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="pincode" aria-labelledby="offcanvasendLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h3 class="t-lblue fw-bold">Choose your <br> Location</h3>
+            <form class="d-flex my-4">
+                <input class="border rounded px-3 py-2" type="search" placeholder="Enter Pin Code" aria-label="Search">
+                <button class="btn btn-primary b-lblue fw-bold px-3 " type="submit">check</button>
+            </form>
+            <div class="row border rounded p-3 align-items-center">
+                <div class="col-2"><img src="photos/dailymedicine/pincode.svg" alt=""></div>
+                <div class="col-10 t-lblue fw-bold ">Login to view Addresses</div>
+            </div>
+            <div class="row border rounded p-3 align-items-center bg-light my-4">
+                <div class="col-2"><img src="photos/dailymedicine/pincode2.svg" alt=""></div>
+                <div class="col-10 t-lblue fw-bold">Express Delivery in Delhi</div>
+            </div>
+            <div class="row border rounded p-3 align-items-center bg-light my-4">
+                <div class="col-2"><img src="photos/dailymedicine/pincode2.svg" alt=""></div>
+                <div class="col-10 t-lblue ">Serving more than 100 towns and cities in India</div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========================pincode offcanvas end===================== -->
+    <div class="container rx-btn justify-content-end">
+        <button class="btn btn-primary b-lblue fw-bold" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasend" aria-controls="offcanvasend">Don't have a prescription? <br> Get
+            Started</button>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasend" aria-labelledby="offcanvasendLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col-6 t-lblue">
+                    <h5>Don't have prescription? <br><br> Don't Worry!</h5>
+                </div>
+                <div class="col-6"> <img src="photos/rx!.svg"></div>
+            </div>
+            <h5 class="t-lblue my-4">Follow these steps:</h5>
+            <h5 class="text-secondary">1. Add medicines to your cart</h5>
+            <h5 class="text-secondary mt-4">2. Select Free Doctor consultation at checkout</h5>
+            <h4 class="my-5 text-secondary">----------------OR---------------</h4>
+            <h5 class="t-lblue">Call us at <a href="#">+918888444422</a> to place your order</h5>
+        </div>
+    </div>
+    <!-- ==========================nav-bar end===================== -->
+
+    <!-- ==========================cart start===================== -->
+    <h4 class="t-blue fw-bold ms-20 mt-5">Order Summary</h4>
+    <div class="container-lg mt-4 mb-20 cart">
+        <div class="row">
+            <div class="col-md-7 col-sm-12 b-grey p-4 rounded">
+                <h6 class="t-lblue fw-bold">PRODUCTS</h6>
+                <div class="row">
+                    <div class="col-2">
+                        <a href="#"><img class="rounded-pill" src="photos/dailymedicine/augmentin.jpg" alt=""></a>
+                    </div>
+                    <div class="col-10">
+                        <a href="#">
+                            <h6 class="text-black fw-bold">Augmentin 625 DUO Tablet 10'S</h6>
+                        </a>
+                        <p class="text-secondary fs">10'S Capsule(s) in a Strip <br>
+                            Mfr: Glaxosmithkline Pharmaceuticals Ltd</p>
+                        <div class="row justify-content-between ">
+                            <div class="col-2">
+                                <h6 class="fw-bold t-red">Rs.201.71</h6>
+                            </div>
+                            <div class="col-3"><input type="number" name="qty" placeholder="QTY:"></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-lg-7 p-2">
+                                <p class="text-secondary fs">Delivery between Nov 14 6PM-Nov 15 10PM</p>
+                            </div>
+                            <div class="col-lg-5">
+                                <button class="btn btn-light fm fw-bold">Remove</button>
+                                <button class="btn btn-light fm fw-bold">Save For Later</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-bottom border-3"></div>
+                <div class="row mt-4">
+                    <div class="col-2">
+                        <a href="#"><img class="rounded-pill" src="photos/dailymedicine/zerodol-sp.jpg" alt=""></a>
+                    </div>
+                    <div class="col-10">
+                        <a href="#">
+                            <h6 class="text-black fw-bold">Zerodol SP Tablet 10'S</h6>
+                        </a>
+                        <p class="text-secondary fs">10'S Capsule(s) in a Strip <br>
+                            Mfr: Ipca Laboratories Ltd</p>
+                        <div class="row justify-content-between ">
+                            <div class="col-2">
+                                <h6 class="fw-bold t-red">Rs.107.60</h6>
+                            </div>
+                            <div class="col-3"><input type="number" name="qty" placeholder="QTY:"></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-lg-7 p-2">
+                                <p class="text-secondary fs">Delivery between Nov 14 6PM-Nov 15 10PM</p>
+                            </div>
+                            <div class="col-lg-5">
+                                <button class="btn btn-light fm fw-bold">Remove</button>
+                                <button class="btn btn-light fm fw-bold">Save For Later</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-bottom border-3"></div>
+                    <div class="row justify-content-between mt-4">
+                        <div class="col-3"><a href="dailymedicine-final.html">
+                                <h6 class="t-lblue fw-bold fm pt-2"> ADD MORE ITEMS</h6>
+                            </a></div>
+                        <div class="col-2"><a href="dailymedicine-final.html">
+                                <h4 class="t-lblue fw-bold"> +</h4>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 cart-res col-sm-12 offset-md-1 b-grey p-4 rounded">
+                <h6 class="t-lblue fw-bold text-center my-5">PAYMENT DETAILS</h6>
+                <div class="row justify-content-between mt-4">
+                    <div class="col-6">MRP Total</div>
+                    <div class="col-5">Rs.309.31</div>
+                </div>
+                <div class="row justify-content-between mt-3">
+                    <div class="col-6">Discount</div>
+                    <div class="col-5 t-lblue">- Rs.89.54</div>
+                </div>
+                <div class="row justify-content-between mt-3">
+                    <div class="col-6">Delivery Charges</div>
+                    <div class="col-5 t-lblue">Rs.25.00</div>
+                </div>
+                <div class="row justify-content-between mt-3">
+                    <div class="col-6 fw-bold">Total Amount *</div>
+                    <div class="col-5 fw-bold">Rs.244.77</div>
+                </div>
+                <div class="row justify-content-between mt-3">
+                    <div class="col-6 fw-bold p-2">Total Amount *</div>
+                    <div class="col-6 fw-bold"><button class="btn b-lblue t-white fw-bold">PROCEED</button></div>
+                </div>
+                <div class="row justify-content-between mt-3">
+                    <div class="col-6 fw-bold fs">Rs.244.77</div>
+                    <div class="col-5"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ==========================cart end===================== -->
+
+
+    <!-- ==========================footer start===================== -->
+    <div class="container-fluid footer b-grey">
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="t-blue fw-bold">Need help?</h4>
+                <h6 class="t-blue fw-bold mt-5">Call or text us <a href="tel:8826559637">(+91)8888444422</a></h6>
+                <h6 class="t-blue fw-bold mb-5">Email us <a href="mailto:help@dailymedicine.com">help@dailymedicine.com</a></h6>
+                <h5 class="t-blue fw-bold mb-4">Get the App</h5>
+                <button class="btn p-3 b-blue fw-bold t-white"><img src="photos/dailymedicine/playstore.png" alt="">Play
+                    Store</button>
+            </div>
+            <div class="col-md-4">
+                <h4 class="t-blue fw-bold footer-res">Company info</h4>
+                <h6 class="t-blue fw-bold mt-5 mb-3"><a href="#">About Us</a></h6>
+                <h6 class="t-blue fw-bold mb-3"><a href="#">Blog</a></h6>
+                <h6 class="t-blue fw-bold mb-3"><a href="#">Careers</a></h6>
+                <h6 class="t-blue fw-bold"><a href="#">Locations</a></h6>
+            </div>
+            <div class="col-md-4">
+                <h4 class="t-blue fw-bold footer-res">Social Media</h4>
+                <div class="row mt-5">
+                    <div class="col-2"><a href="#"><img src="photos/dailymedicine/facebook.png" alt=""></a></div>
+                    <div class="col-2"><a href="#"><img src="photos/dailymedicine/twitter (1).png" alt=""></a></div>
+                    <div class="col-2"><a href="#"><img src="photos/dailymedicine/instagram.png" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========================footer end===================== -->
+    <ul class="d-flex flex-column fixed-bottom text-end p-4">
+        <li><a href="tel:918888444422"><i class="fas fa-phone-square fa-4x t-blue"></i></a></li>
+        <li><a href="https://wa.me/918826559637"><i
+                    class="fab fa-whatsapp-square fa-4x t-lblue"></i></a></li>
+
+    </ul>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
